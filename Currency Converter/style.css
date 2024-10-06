@@ -1,0 +1,61 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.container{
+    background-color: papayawhip;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px purple;
+}
+
+h1{
+    text-align: center;
+    color: purple;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-top: 15px;
+    color: rgb(104, 2, 104);
+}
+select, input{
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid rgb(241, 160, 151);
+    border-radius: 5px;
+    box-shadow: 0 0 15px palevioletred;
+}
+
+button{
+    margin-top: 20px;
+    padding: 10px;
+    color: rgb(40, 3, 75);
+    background-color: blanchedalmond;
+    border: 2px solid rgb(241, 160, 151);
+    box-shadow: 0 0 15px rgb(134, 62, 86);
+    cursor: pointer;
+    font-size: 1rem;
+}
+button:hover {
+    background-color: rgb(247, 198, 214);
+
+}
+
+#result{
+    margin-top: 20px;
+    font-size: 1.2rem ;
+    color: rgb(109, 9, 71);
+    text-align: center;
+}
